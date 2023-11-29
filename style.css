@@ -1,0 +1,73 @@
+body {
+  background: rgb(56, 54, 54);
+  margin: 0;
+  }
+
+  /* Tablet in modalità verticale */
+  @media screen and (min-width: 481px) and (max-width: 736px) {
+
+    h1 {
+      font-size: 160%;
+      }
+    
+    #block1 {
+      display: block;
+      margin-left: 300px;      
+    }
+
+    .testo {
+      width: 500px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 80%;
+    }
+
+  
+  }
+
+  .intestazione {
+    color: rgb(255, 255, 255);
+    font-family: 'Dela Gothic One', sans-serif;
+    font-size: 260%;
+    margin-left: 3%;
+  }
+
+  h1 {
+    margin-bottom: 0%;
+  }
+
+  .testo {
+    color: rgb(255, 255, 255);
+    font-family: 'Fragment Mono', monospace;
+    font-size: 160%;
+    margin-top: 5%;
+  }
+
+  #block1 {
+    margin-left: 3%;
+    max-width: 600px;
+    float: left;
+  }
+
+  p {
+    margin-top: 0%;
+  }
+
+  #foto {
+    float: right;
+    margin-right: 3%;
+    margin-top: 3%;
+  }
+
+  img {
+    height: 70%;
+  }
+
+  
+  
+
+
+
+  
